@@ -1,0 +1,493 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(211, 186, 172, 44%);
+    
+}
+
+h2{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Italiana', sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+p{
+    color: rgba(0, 0, 0, 80%);
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inria Serif', serif;
+    font-size: 15px;
+}
+
+.hr{    
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+hr{
+    width: 75%;
+    border-color: rgba(0, 0, 0, 55%);
+}
+
+
+.bannerTitle{
+    display: flex;
+    background-image: url(img/banner.png);
+    font-family: 'Italianno', cursive;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 20px;
+    height: 240px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #000;
+    justify-content: center;  
+    align-items: center;
+}
+
+.bannerTitle h1{
+    padding-top: 7%;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.theDate{
+    font-family: 'Italianno', cursive;
+    font-size: 48px;
+}
+
+.histoire{
+    padding-bottom: 20px;
+}
+
+.marie{
+    padding-bottom: 20px;
+}
+
+.descriptif{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.signature{
+    font-style: italic;
+}
+
+.temoins h2{
+    padding: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.nom{
+    font-family: 'Inria Serif', serif;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.marie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgmarie{
+    width: 80%;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.temoinsmarie{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temoin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.temoinligne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temoins h2{
+    padding-bottom: 20px;
+}
+
+.imgtemoin{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.nomtemoin{
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.details{
+    padding-bottom: 20px;
+}
+
+.details h2{
+    padding: 0;
+    padding-top: 20px;
+}
+
+.partieMariage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.partieMariage h2{
+    font-size: 28px;
+}
+
+.partieMariage p{
+    text-align: center;
+}
+
+.imgdtls{
+    width: 80%;
+    border-radius: 15px;
+}
+
+.adressedtls{
+    text-align: center;
+}
+
+.hebergements{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hebergements h2{
+    padding: 0;
+    padding-top: 20px;
+}
+
+.hotelcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotel a{
+    display: flex;
+    justify-content: center;
+}
+
+.hotel h2{
+    font-size: 25px;
+}
+
+.hotel p{
+    text-align: center;
+}
+
+.imghotel{
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.rsvp label{
+    color: rgba(0, 0, 0, 55%);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selector{
+    border-radius: 10px;
+    background-color: rgba(211, 186, 172, 44%);
+}
+
+.inputText{
+    background-color: rgba(211, 186, 172, 44%);
+    border-color: white;
+    border-radius: 8px;
+    width: 80%;
+    height: 25px;
+}
+
+.inputcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.inputrow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    padding-top: 10px;
+}
+
+button{
+    width: 30%;
+    background-color: rgba(211, 186, 172, 44%);
+    border-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    h2{
+        font-size: 55px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .bannerTitle{
+        height: 360px;
+        font-size: 40px;
+    }
+
+    .theDate{
+        font-size: 72px;
+    }
+
+    .date p{
+        width: 50%;
+    }
+
+    .histoirecontainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .histoirecontainer p{
+        width: 40%;
+    }
+
+    .maries{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .marie{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+    }
+
+    .nom{
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .imgmarie{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .imgtemoin{
+        width: 80%;
+        height: auto;
+    }
+
+    .eventcontainer{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .imgdtls{
+        width: 100%;
+    }
+
+    .adressedtls{
+        padding-top: 7px;
+    }
+
+    .partieMariage{
+        width: 40%;
+    }
+
+    .hotelcontainer{
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .hotelsligne{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hotel{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }  
+
+    .imghotel{
+        width: 80%;
+    }
+
+
+    .inputcontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 5%;
+    }
+
+    .inputText{
+        width: 35%;
+        height: 35px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .bannerTitle{
+        height: 560px;
+        font-size: 50px;
+    }
+
+    h2{
+        padding: 45px;
+        font-size: 56px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    .date p{
+        width: 75%;
+    }
+
+    .theDate{
+        font-size: 96px;
+    }
+
+    .histoirecontainer p{
+        width: 30%;
+    }
+
+    .marie{
+        width: 30%;
+    }
+
+    .marie h2{
+        font-size: 45px;
+    }
+
+
+    .temoinligne{
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .nom{
+        font-size: 46px;
+    }
+
+    .partieMariage h2{
+        font-size: 42px;
+    }
+
+    .imgdtls{
+        width: 100%;
+        height: auto;
+    }
+
+    .hotel h2{
+        font-size: 36px;
+    }
+
+    .imghotel{
+        width: 100%;
+        height: auto;
+    }
+
+    .hotelsligne{
+        column-gap: 5%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .bannerTitle{
+        height: 560px;
+        object-position: top;
+    }
+
+    .temoinsmarie{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .temoin{
+        width: 40%;
+    }
+
+    .partieMariage{
+        width: 30%;
+    }
+    
+    .hotel{
+        width: 30%;
+    }
+
+    .inputcontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        gap: 5%;
+    }
+
+    .inputText{
+        width: 35%;
+        height: 35px;
+    }
+}
